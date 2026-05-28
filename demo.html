@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KP Nail & KING · 銅鑼灣電業城 SOLO 地庫新店路線指引</title>
+<meta name="description" content="由銅鑼灣港鐵站行去 KP Nail & KING（軒尼詩道505號 電業城 SOLO 地庫）嘅逐步圖文指引。" />
+<meta property="og:title" content="KP Nail & KING · 銅鑼灣電業城 SOLO 地庫新店" />
+<meta property="og:description" content="由銅鑼灣港鐵站 B 出口，左轉直行約 1 分鐘到電業城 SOLO，入大廈搭升降機落地庫。附圖文步驟、Google Map 導航、預約電話。" />
+<meta property="og:type" content="website" />
+<style>
+  :root{
+    --bg:#fafaf7;
+    --ink:#171717;
+    --muted:#6b6b6b;
+    --line:#e7e5e0;
+    --brand:#d7263d;      /* SOLO / Radio City red */
+    --brand-ink:#ffffff;
+    --accent:#1f6feb;
+    --card:#ffffff;
+    --shadow:0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans HK","PingFang HK","PingFang TC","Microsoft JhengHei",system-ui,-apple-system,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.55;font-size:16px;}
+  main{max-width:720px;margin:0 auto;padding:20px 18px 64px}
+  header.hero{
+    background:linear-gradient(135deg,#d7263d 0%,#b21d30 100%);
+    color:#fff;border-radius:var(--radius);padding:22px 20px;box-shadow:var(--shadow);
+    position:relative;overflow:hidden;
+  }
+  header.hero::after{
+    content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;
+    border-radius:50%;background:rgba(255,255,255,.08);pointer-events:none;
+  }
+  header.hero .kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;opacity:.8}
+  header.hero h1{margin:6px 0 4px;font-size:26px;line-height:1.25;letter-spacing:.01em}
+  header.hero .sub{opacity:.9;font-size:14px}
+  .facts{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:16px;font-size:13px}
+  .fact{background:rgba(255,255,255,.15);backdrop-filter:blur(4px);border-radius:10px;padding:8px 10px}
+  .fact b{display:block;font-size:16px;margin-bottom:2px}
+
+  .cta{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+  .cta a{flex:1 1 160px;text-align:center;padding:12px 14px;border-radius:10px;
+    background:#fff;color:var(--brand);font-weight:700;text-decoration:none;
+    box-shadow:0 1px 0 rgba(0,0,0,.05)}
+  .cta a.secondary{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.35)}
+
+  section{background:var(--card);border-radius:var(--radius);padding:18px 18px 20px;
+    margin-top:16px;box-shadow:var(--shadow)}
+  section h2{margin:0 0 6px;font-size:18px;letter-spacing:.01em}
+  section p.lead{color:var(--muted);margin:0 0 12px;font-size:14px}
+  .tag{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--brand);background:rgba(215,38,61,.08);padding:3px 8px;border-radius:999px;margin-bottom:8px}
+
+  .map-card img{width:100%;height:auto;border-radius:10px;display:block;border:1px solid var(--line)}
+  .map-card .caption{font-size:12px;color:var(--muted);margin-top:6px}
+
+  ol.steps{list-style:none;padding:0;margin:8px 0 0;counter-reset:step}
+  ol.steps li{position:relative;padding:14px 12px 14px 56px;border-top:1px solid var(--line)}
+  ol.steps li:first-child{border-top:0}
+  ol.steps li::before{
+    counter-increment:step;content:counter(step);
+    position:absolute;left:10px;top:16px;width:34px;height:34px;line-height:34px;text-align:center;
+    background:var(--brand);color:#fff;border-radius:50%;font-weight:700;font-size:15px;
+  }
+  ol.steps .title{font-weight:700;font-size:15.5px;margin-bottom:2px}
+  ol.steps .hint{color:var(--muted);font-size:13.5px}
+  ol.steps .hint strong{color:var(--ink)}
+  ol.steps .mini{margin-top:10px}
+  ol.steps .mini img{width:100%;border-radius:8px;border:1px solid var(--line)}
+  ol.steps .mini .caption{font-size:12px;color:var(--muted);margin-top:4px}
+
+  .landmark{display:flex;gap:10px;align-items:center;margin-top:10px;padding:10px 12px;
+    background:#fff7e6;border-left:4px solid #e6a23c;border-radius:8px;font-size:14px}
+  .landmark .icon{font-size:20px}
+
+  .info-grid{display:grid;grid-template-columns:120px 1fr;gap:8px 12px;font-size:14.5px;margin-top:6px}
+  .info-grid dt{color:var(--muted)}
+  .info-grid dd{margin:0}
+  .placeholder{color:#9a9a9a;font-style:italic}
+  .btn-row{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:10px;
+    text-decoration:none;font-weight:600;font-size:14px;border:1px solid var(--line);color:var(--ink);background:#fff}
+  .btn.primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+  .btn.ghost{background:transparent}
+
+  .transit{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  .chip{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:13px;background:#fff}
+  .chip b{color:var(--brand)}
+
+  .lang-switch{position:absolute;top:14px;right:14px;font-size:12px;z-index:2}
+  .lang-switch a{color:#fff;opacity:.85;text-decoration:none;border:1px solid rgba(255,255,255,.45);padding:4px 8px;border-radius:999px}
+
+  footer{margin-top:20px;color:var(--muted);font-size:12px;text-align:center}
+  footer a{color:var(--muted)}
+
+  @media print{
+    @page{size:A4;margin:12mm}
+    body{background:#fff}
+    main{max-width:none;padding:0}
+    header.hero{box-shadow:none;border:1px solid var(--line);background:#fff;color:var(--ink);padding:12px 16px}
+    header.hero h1{font-size:22px;margin:4px 0 2px}
+    header.hero .sub{font-size:13px}
+    header.hero .fact{background:#f5f5f2;color:var(--ink)}
+    header.hero .cta,header.hero .lang-switch{display:none}
+    section{box-shadow:none;border:1px solid var(--line);padding:10px 14px;margin-top:8px}
+    section.map-card h2{font-size:16px;margin:4px 0 2px}
+    section.map-card .lead{font-size:12.5px;margin:2px 0 6px}
+    section.map-card img{width:100%;max-width:100%;max-height:640px;object-fit:contain;margin:0 auto;display:block}
+    section#closeup-map img{max-height:700px}
+    ol.steps{padding:0;margin:6px 0 0}
+    ol.steps li{page-break-inside:avoid;padding:8px 0 8px 44px}
+    ol.steps li::before{top:8px}
+    ol.steps li + li{border-top:1px dashed var(--line);margin-top:6px;padding-top:10px}
+    ol.steps li + li::before{top:10px}
+    ol.steps .title{font-size:14.5px;margin-bottom:2px}
+    ol.steps .hint{font-size:12.5px;margin:2px 0 6px;line-height:1.45}
+    ol.steps .mini{margin-top:6px;text-align:center}
+    /* Large photo — like the web version (full column width) */
+    ol.steps .mini img{display:block;width:100%;max-width:100%;max-height:260px;object-fit:cover;border-radius:6px;border:1px solid var(--line);margin:0 auto}
+    /* Step 5 is portrait; show full frame without cropping */
+    ol.steps li:nth-child(5) .mini img{width:auto;max-width:100%;max-height:360px;object-fit:contain}
+    ol.steps .mini .caption{font-size:11.5px;margin-top:3px;color:var(--muted)}
+    ol.steps .landmark{padding:5px 10px;font-size:12px;margin-top:6px}
+    .btn-row{display:none}
+
+    /* Forced pagination:
+       P1: hero + 放大地圖
+       P2: 路線地圖 + Step 1
+       P3: Step 2 + Step 3
+       P4: Step 4 + Step 5
+       P5: Merchant info */
+    #route-map{page-break-before:always}
+    #steps-section{border:none;padding:0;margin-top:10px}
+    #steps-section > .tag,
+    #steps-section > h2,
+    #steps-section > .lead{display:none}
+    ol.steps li:nth-child(2){page-break-before:always;border-top:none;margin-top:0;padding-top:6px}
+    ol.steps li:nth-child(4){page-break-before:always;border-top:none;margin-top:0;padding-top:6px}
+    #info{page-break-before:always}
+    a{color:inherit;text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="hero">
+    <div class="lang-switch"><a href="index-en.html">English</a></div>
+    <div class="kicker">KP Nail &amp; KING · 新店路線指引</div>
+    <h1>銅鑼灣 電業城 SOLO <span style="white-space:nowrap">地庫 B02 &amp; B03 舖</span></h1>
+    <div class="sub">港鐵 B 出口 · 步行 1 分鐘（43 米）· 再搭升降機落<b>地庫</b></div>
+
+    <div class="facts">
+      <div class="fact"><b>B</b>港鐵出口</div>
+      <div class="fact"><b>左轉</b>出口方向</div>
+      <div class="fact"><b>地庫</b>搭𨋢，按 B 制落去</div>
+    </div>
+
+    <div class="cta">
+      <a href="https://www.google.com/maps/dir/?api=1&destination=22.2802968,114.183298&destination_place_id=ChIJ41FV3VYABDQRslmpr-YXtxs&travelmode=walking" target="_blank" rel="noopener">
+        一鍵開啟 Google Map 導航
+      </a>
+      <a class="secondary" href="#info">預約 &amp; 商家資料</a>
+    </div>
+  </header>
+
+  <!-- Detailed map (placed first per user request) -->
+  <section class="map-card" id="closeup-map">
+    <span class="tag">放大地圖</span>
+    <h2>505 號軒尼詩道附近街道</h2>
+    <p class="lead">如果途中唔記得，放大睇下周圍街道名就一目瞭然。</p>
+    <img src="assets/02_map_closeup.png" alt="放大嘅 Google Maps 地圖，顯示軒尼詩道505號電業城位置、附近銅鑼灣港鐵 B／D1／D2／D3 出口" />
+    <div class="caption">軒尼詩道505號 · 電業城（Radio City）· 22 層樓高</div>
+  </section>
+
+  <!-- Overview map -->
+  <section class="map-card" id="route-map">
+    <span class="tag">路線地圖</span>
+    <h2>由銅鑼灣站行去軒尼詩道 505 號</h2>
+    <p class="lead">紅色 pin 係 505 號電業城，「Causeway Bay」係港鐵站，紫色路線就係步行路徑。</p>
+    <img src="assets/01_route_overview.png" alt="由銅鑼灣港鐵站到軒尼詩道505號電業城嘅步行地圖，距離約43米" />
+    <div class="caption">地圖截自 Google Maps · 步程約 1 分鐘（43 米）</div>
+  </section>
+
+  <!-- Step-by-step -->
+  <section id="steps-section">
+    <span class="tag">圖文步驟</span>
+    <h2>5 個步驟行到商場門口</h2>
+    <p class="lead">跟住呢 5 步行，就算唔熟銅鑼灣都唔會行錯。</p>
+
+    <ol class="steps">
+
+      <li>
+        <div class="title">喺港鐵<strong>銅鑼灣站</strong>落車，按指示牌行去 <strong>B 出口</strong>，上到地面</div>
+        <div class="hint">
+          月台天花同指示牌會寫「<strong>B 出口 · 軒尼詩道／崇光百貨 SOGO</strong>」。
+          跟住藍色「B」牌行，<strong>唔好</strong>走去 A／C／D／E／F 出口。
+          行到 B 出口後，上樓梯／扶手電梯直接到地面（軒尼詩道行人路）。
+        </div>
+        <div class="mini">
+          <img src="assets/user_step1_bexit.jpg" alt="銅鑼灣站 B 出口實景：出口位於 Bay Plaza 一期隔籬，寫住「銅鑼灣站 Causeway Bay Station」" />
+          <div class="caption">實景：B 出口位於「銅鑼灣廣場一期 Causeway Bay Plaza 1」隔籬 · 上到嚟就企喺軒尼詩道行人路。</div>
+        </div>
+        <div class="landmark"><span class="icon">🛍️</span> <span><b>到達地面後</b>：<b>SOGO 崇光百貨</b> 喺你 <b>左手邊</b> 方向。<br><b>下一步：向左手邊轉</b>，即係面住 SOGO 方向沿住行人路直行。</span></div>
+      </li>
+
+      <li>
+        <div class="title">向左直行，<strong>先經過「周大福」</strong></div>
+        <div class="hint">
+          一出地面向左手邊轉，沿軒尼詩道行人路直行（<strong>馬路喺你右手邊</strong>）。
+          <strong>第一間左手邊嘅金鋪就係「周大福 CHOW TAI FOOK」</strong>，紅色招牌好易認。行過咗就代表你方向正確，繼續向前。
+        </div>
+        <div class="mini">
+          <img src="assets/user_step2_ctf.jpg" alt="軒尼詩道上嘅周大福 CHOW TAI FOOK 金鋪門面實景，紅色招牌" />
+          <div class="caption">實景：左手邊第一間「周大福 CHOW TAI FOOK」· 見到呢間就代表行啱方向。</div>
+        </div>
+        <div class="landmark"><span class="icon">💎</span> <span><b>方向確認</b>：周大福喺你 <b>左手邊</b>；軒尼詩道馬路喺你 <b>右手邊</b>。</span></div>
+      </li>
+
+      <li>
+        <div class="title">繼續向前行，<strong>經過「中國建設銀行」同「周生生」</strong></div>
+        <div class="hint">
+          過咗周大福之後再行幾步，<strong>左手邊</strong>會接連出現 <strong>「中國建設銀行 China Construction Bank」</strong> 同埋
+          <strong>「周生生 CHOW SANG SANG」</strong>。見到呢兩間就代表你好快就到目的地，<strong>繼續直行唔使過馬路</strong>。
+        </div>
+        <div class="mini">
+          <img src="assets/user_step3_ccb.jpg" alt="軒尼詩道實景：中國建設銀行 China Construction Bank 同「周生生 Chow Sang Sang」門面，位於 Monarch House II" />
+          <div class="caption">實景：左邊「中國建設銀行」+「周生生 Chow Sang Sang」· 大廈寫「MONARCH HOUSE II」· 見到呢兩間就快到目的地。</div>
+        </div>
+        <div class="landmark"><span class="icon">🏦</span> <span><b>途經順序</b>：周大福 → 中國建設銀行 → 周生生 → 到達 SOLO。</span></div>
+      </li>
+
+      <li>
+        <div class="title">留意一座有 <strong>巨型紅色圓形「中國銀行」logo</strong> 嘅大廈</div>
+        <div class="hint">
+          行過周生生之後，<strong>左手邊</strong>會見到一棟外牆有銀灰色鋁條、裝住巨大紅色圓形「中國銀行（香港）」logo 嘅大廈，
+          logo 下面寫住 <strong>「SOLO · RADIO CITY」</strong>。呢棟就係 <b>電業城 SOLO</b>，即係你嘅目的地。
+        </div>
+        <div class="mini">
+          <img src="assets/step4_destination.png" alt="第一身視角：電業城 SOLO（Radio City）大廈外觀，有巨型紅色中國銀行 logo 同 SOLO 招牌" />
+          <div class="caption">實景（Google Street View）：你會見到嘅景象就係咁樣 · 紅色 logo = 到站確認。</div>
+        </div>
+      </li>
+
+      <li>
+        <div class="title">入大廈大堂 → 搭升降機<strong>落地庫</strong>，目的地：<b>B02 &amp; B03 舖</b></div>
+        <div class="hint">
+          大堂入口就喺中國銀行分行旁邊嘅玻璃門，門面寫住「RADIO CITY 電業城」。
+          入去之後會見到 <strong>「WELCOME TO VISIT SOLO」</strong> 藍色海報同兩部大堂升降機，
+          <strong>撳升降機個「B/F」掣落地庫</strong>（<b>唔係</b>上樓 21/F）。出升降機跟指示牌行去
+          <b>B02 &amp; B03 舖</b>，就係 <b>KP Nail &amp; KING</b> 新店。
+        </div>
+        <div class="mini">
+          <img src="assets/user_step5_lift.jpg" alt="電業城 SOLO 大堂升降機門口實景：左邊係藍色「WELCOME TO VISIT SOLO」海報，右邊兩部升降機上面寫「電業城 RADIO CITY」，按鈕有 B/F 同 21/F" />
+          <div class="caption">大堂實景：入到去見到藍色 SOLO 海報同兩部升降機 · <b>撳「B/F」</b> 落地庫（唔係按 21/F）。</div>
+        </div>
+        <div class="landmark"><span class="icon">💅</span> <span>入到店請向職員報你嘅名／預約時間，我哋就會即刻為你服務。</span></div>
+      </li>
+
+    </ol>
+
+    <div class="btn-row">
+      <a class="btn primary" href="https://www.google.com/maps/dir/?api=1&destination=22.2802968,114.183298&destination_place_id=ChIJ41FV3VYABDQRslmpr-YXtxs&travelmode=walking" target="_blank" rel="noopener">
+        📍 開啟 Google Map 逐步導航
+      </a>
+      <a class="btn" href="https://maps.apple.com/?daddr=22.2802968,114.183298&dirflg=w" target="_blank" rel="noopener">
+         Apple 地圖
+      </a>
+    </div>
+  </section>
+
+  <!-- Merchant info -->
+  <section id="info">
+    <span class="tag">商家資料 · Merchant Info</span>
+    <h2>KP Nail &amp; KING 💅</h2>
+    <p class="lead">銅鑼灣美甲店 · Google 評分 <b>4.5</b>（33 則評論）· 主理師為女性店主。</p>
+
+    <dl class="info-grid">
+      <dt>新店地址</dt><dd>香港銅鑼灣軒尼詩道 505 號<br/>電業城 SOLO（Radio City）<b>地庫 B02 &amp; B03 舖</b></dd>
+      <dt>港鐵</dt><dd>銅鑼灣站 <b>B 出口</b>，左轉直行 1 分鐘（43 米）</dd>
+      <dt>電話</dt><dd><a href="tel:+85261003599">+852 6100 3599</a></dd>
+      <dt>Facebook</dt><dd><a href="https://www.facebook.com/kpnailking" target="_blank" rel="noopener">facebook.com/kpnailking</a></dd>
+      <dt>Google Maps</dt><dd><a href="https://maps.app.goo.gl/E4NdGN7uXoSM8phn8" target="_blank" rel="noopener">KP Nail &amp; KING 商家頁</a></dd>
+      <dt>服務</dt><dd>美甲 Manicure · 凝膠 Gel · 手足護理</dd>
+    </dl>
+
+    <h3 style="margin:18px 0 6px;font-size:15px">營業時間</h3>
+    <table style="width:100%;border-collapse:collapse;font-size:14.5px">
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期一</td><td style="padding:6px 0">10:00 – 22:00</td></tr>
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期二</td><td style="padding:6px 0">10:00 – 22:00</td></tr>
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期三</td><td style="padding:6px 0">10:00 – 22:00</td></tr>
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期四</td><td style="padding:6px 0">10:00 – 22:00</td></tr>
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期五</td><td style="padding:6px 0">19:00 – 22:00</td></tr>
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期六</td><td style="padding:6px 0">19:00 – 22:00</td></tr>
+      <tr><td style="padding:6px 0;color:#6b6b6b">星期日</td><td style="padding:6px 0">19:00 – 22:00</td></tr>
+    </table>
+    <p style="font-size:12px;color:#9a9a9a;margin:6px 0 0">時間以商戶現場公告為準；來店前建議先電話預約。</p>
+
+    <div class="btn-row">
+      <a class="btn primary" href="tel:+85261003599">📞 致電 6100 3599</a>
+      <a class="btn" href="https://wa.me/85261003599" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a class="btn" href="https://www.facebook.com/kpnailking" target="_blank" rel="noopener">📘 Facebook</a>
+      <a class="btn ghost" href="#" id="share-btn">🔗 分享俾朋友</a>
+    </div>
+
+    <div class="transit">
+      <span class="chip">🚇 銅鑼灣站 <b>B 出口</b> · 43 米</span>
+      <span class="chip">🚌 軒尼詩道／崇光站</span>
+      <span class="chip">🚕 叫車到「電業城 SOLO · 軒尼詩道 505 號」</span>
+    </div>
+  </section>
+
+  <footer>
+    指引由 KP Nail &amp; KING 為新顧客整理 · 地圖 © Google · 實際路面情況可能有變，請以現場指示為準。<br/>
+    如有疑問，直接撥打 <a href="tel:+85261003599">6100 3599</a> 或 <a href="https://wa.me/85261003599">WhatsApp</a>。
+  </footer>
+
+</main>
+
+<script>
+  document.getElementById('share-btn')?.addEventListener('click', async (e)=>{
+    e.preventDefault();
+    const data = {
+      title: document.title,
+      text: '由銅鑼灣港鐵站B出口行去電業城 SOLO 嘅圖文指引',
+      url: location.href
+    };
+    try{
+      if (navigator.share) { await navigator.share(data); }
+      else { await navigator.clipboard.writeText(location.href); alert('連結已複製，可以直接傳俾朋友 👍'); }
+    }catch(_){}
+  });
+</script>
+</body>
+</html>
